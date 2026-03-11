@@ -1,0 +1,10 @@
+import sys
+import os
+
+project_root = "/Workspace/Users/mayureshjadhav28122000@gmail.com/week6-weather-dashboard"
+
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+from weather_app.main import main
+main()
