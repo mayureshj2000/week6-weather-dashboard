@@ -41,13 +41,13 @@ It is built as a Python package (`weather_app`) with separate modules for config
 -  Comprehensive error handling for API and network problems
 -  Export‑ready parsed data (can be easily written to CSV if extended)
 
-##Module Responsibilities
-#config.py
+## Module Responsibilities
+# config.py
 - Loads environment variables (especially WEATHER_API_KEY) using python-dotenv.
 - Defines BASE_URL, DATA_DIR, CACHE_DIR, and FAVORITES_FILE paths.
 - Ensures the data/ and data/cache/ directories exist.
 
-#weather_api.py
+# weather_api.py
 - WeatherAPI class encapsulating all API communication.
 - Handles:
     - Current weather (get_current_weather)
@@ -55,26 +55,26 @@ It is built as a Python package (`weather_app`) with separate modules for config
     - Network/HTTP error handling and status‑code based messages
     - Disk‑based JSON caching using time.time() and last‑modified times.
 
-#weather_parser.py
+# weather_parser.py
 - Pure functions to transform raw JSON into clean, typed dictionaries/lists:
     parse_current_weather(data, unit="C")
     parse_forecast(data, unit="C")
 - Handles unit conversion (C ↔ F), date/time formatting, and daily aggregation for forecasts.
 
-#weather_display.py
+# weather_display.py
 - Functions to render parsed data as a formatted CLI dashboard:
     show_current(current_data)
     show_forecast(daily_forecast)
 - Uses colorama for color‑coding temperatures and simple icon mapping for common weather conditions.
 
-#main.py
+# main.py
 - Interactive command‑line interface:
     - Main menu (view city, favourites, manage favourites, toggle units)
     - City selection with favourites list
     - Integration of API client, parser, and display modules
 - Orchestrates the full flow: get input → call API → parse → display → loop.
 
-#tests/
+# tests/
 - test_api.py: tests caching behaviour and API method contracts (with mock or fake data).
 - test_parser.py: tests JSON parsing and conversion logic using small fake payloads.
 - test_display.py: smoke tests that the display functions print expected content.
