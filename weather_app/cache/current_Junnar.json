@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 73.8833,
+    "lat": 19.2
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 35,
+    "feels_like": 32.51,
+    "temp_min": 35,
+    "temp_max": 35,
+    "pressure": 1009,
+    "humidity": 14,
+    "sea_level": 1009,
+    "grnd_level": 923
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.7,
+    "deg": 283,
+    "gust": 2.17
+  },
+  "clouds": {
+    "all": 3
+  },
+  "dt": 1773480572,
+  "sys": {
+    "country": "IN",
+    "sunrise": 1773450841,
+    "sunset": 1773494021
+  },
+  "timezone": 19800,
+  "id": 1268761,
+  "name": "Junnar",
+  "cod": 200
+}

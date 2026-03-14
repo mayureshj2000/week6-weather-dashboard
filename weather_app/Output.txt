@@ -1,0 +1,33 @@
+
+🌤️  WEATHER DASHBOARD
+=======================
+
+📍 Location: Nashik, IN
+🕐 Last Updated: 2026-03-14 15:03 (Live data)
+
+Current Weather:
+────────────────
+Temperature:  35.18°C (Feels like: 32.62°C)
+Conditions:   Clear Sky ☀️
+Humidity:     13%
+Wind:         4.97 m/s
+Pressure:     1008 hPa
+Visibility:   10.0 km
+Sunrise:      2026-03-14 06:44
+Sunset:       2026-03-14 18:43
+
+5-Day Forecast:
+───────────────
+2026-03-14:  ☀️  34.5° / 23.3°  (Humidity: 16%)
+2026-03-15:  ☀️  34.0° / 21.2°  (Humidity: 25%)
+2026-03-16:  ☀️  33.3° / 19.9°  (Humidity: 37%)
+2026-03-17:  ☀️  33.9° / 18.3°  (Humidity: 32%)
+2026-03-18:  ☀️  33.9° / 19.0°  (Humidity: 33%)
+
+
+=== WEATHER DASHBOARD ===
+1. View weather for a city
+2. View weather for favourite city
+3. Manage favourite cities
+4. Toggle units (C/F)
+0. Quit
